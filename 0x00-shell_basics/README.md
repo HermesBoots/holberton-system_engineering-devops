@@ -15,3 +15,6 @@ Listing the names of non-hidden files in the working directory and details about
 
 ## Hidden Files
 Listing the names of all files in the working directory and details about them, again using `ls` options.
+
+## I Love Numbers
+Listing the names of all files in the working directory and details about them, this time with numeric user and group IDs. Once again this is done with `ls` options.
