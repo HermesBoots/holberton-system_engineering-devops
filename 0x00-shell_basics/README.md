@@ -21,3 +21,6 @@ Listing the names of all files in the working directory and details about them, 
 
 ## Welcome Holberton
 Creating a new directory using `mkdir`.
+
+## Betty in Holberton
+Moving a file from one directory to another using `mv`.
