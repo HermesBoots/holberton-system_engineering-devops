@@ -27,3 +27,6 @@ Moving a file from one directory to another using `mv`.
 
 ## Bye Bye Betty
 Deleting a file from at a fixed path using `rm`.
+
+## Bye Byte Holberton
+Deleting a directory at a fixed path. This could use `rmdir` or `rm`, depending on whether we can assume the directory is empty. I'm guessing `rmdir`.
