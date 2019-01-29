@@ -6,3 +6,6 @@ Determining your location on the file system using `pwd`.
 
 ## What's in There?
 Listing names of non-hidden files in the working directory using `ls`.
+
+## There Is No Place Like Home
+Changing the working directory to the current user's home directory using `cd`.
