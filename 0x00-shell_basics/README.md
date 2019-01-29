@@ -39,3 +39,6 @@ Listing the files, including hidden ones, from multiple directories at once by g
 
 ## File Type
 Displaying the type of a file at a fixed path using `file`.
+
+## We Are Symbols, and Inhabit Symbols
+Creating a symbolic link to a file at a fixed path using `ln`.
