@@ -36,3 +36,6 @@ Changing the working directory to a previous one using an unusual option accepte
 
 ## Lists
 Listing the files, including hidden ones, from multiple directories at once by giving multiple arguments to `ls`.
+
+## File Type
+Displaying the type of a file at a fixed path using `file`.
