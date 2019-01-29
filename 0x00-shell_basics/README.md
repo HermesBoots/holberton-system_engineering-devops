@@ -48,3 +48,6 @@ Copy HTML files between directories using `rsync`, but only if they're newer in 
 
 ## Let's Move
 Move files from the working directory to the directory at a fixed location, only if those files' names start with an uppercase letter. This uses `mv` and special `bash` globs.
+
+## Clean Emacs
+Delete all files that look like `emacs` backup files using `rm`.
