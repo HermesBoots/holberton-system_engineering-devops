@@ -18,3 +18,6 @@ Listing the names of all files in the working directory and details about them, 
 
 ## I Love Numbers
 Listing the names of all files in the working directory and details about them, this time with numeric user and group IDs. Once again this is done with `ls` options.
+
+## Welcome Holberton
+Creating a new directory using `mkdir`.
