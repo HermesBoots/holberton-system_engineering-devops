@@ -45,3 +45,6 @@ Creating a symbolic link to a file at a fixed path using `ln`.
 
 ## Copy HTML Files
 Copy HTML files between directories using `rsync`, but only if they're newer in the source than in the destination.
+
+## Let's Move
+Move files from the working directory to the directory at a fixed location, only if those files' names start with an uppercase letter. This uses `mv` and special `bash` globs.
