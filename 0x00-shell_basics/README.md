@@ -33,3 +33,6 @@ Deleting a directory at a fixed path. This could use `rmdir` or `rm`, depending 
 
 ## Back to the Future
 Changing the working directory to a previous one using an unusual option accepted by `cd`.
+
+## Lists
+Listing the files, including hidden ones, from multiple directories at once by giving multiple arguments to `ls`.
