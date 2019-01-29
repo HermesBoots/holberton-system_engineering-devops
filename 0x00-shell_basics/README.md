@@ -35,7 +35,7 @@ Deleting a directory at a fixed path. This could use `rmdir` or `rm`, depending 
 Changing the working directory to a previous one using an unusual option accepted by `cd`.
 
 ## Lists
-Listing the files, including hidden ones, from multiple directories at once by giving multiple arguments to `ls`.
+Listing the files, including hidden ones and details, from multiple directories at once by giving multiple arguments to `ls`.
 
 ## File Type
 Displaying the type of a file at a fixed path using `file`.
