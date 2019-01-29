@@ -4,3 +4,5 @@ How to use the shell. Covers basic commands and builtins, and how to use those t
 ## Where Am I?
 Determining your location on the file system using `pwd`.
 
+## What's in There?
+Listing names of non-hidden files in the working directory using `ls`.
