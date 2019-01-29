@@ -42,3 +42,6 @@ Displaying the type of a file at a fixed path using `file`.
 
 ## We Are Symbols, and Inhabit Symbols
 Creating a symbolic link to a file at a fixed path using `ln`.
+
+## Copy HTML Files
+Copy HTML files between directories using `rsync`, but only if they're newer in the source than in the destination.
