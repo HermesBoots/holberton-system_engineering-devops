@@ -12,3 +12,6 @@ Changing the working directory to the current user's home directory using `cd`.
 
 ## The Long Format
 Listing the names of non-hidden files in the working directory and details about them using `ls` options.
+
+## Hidden Files
+Listing the names of all files in the working directory and details about them, again using `ls` options.
