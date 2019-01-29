@@ -30,3 +30,6 @@ Deleting a file from at a fixed path using `rm`.
 
 ## Bye Byte Holberton
 Deleting a directory at a fixed path. This could use `rmdir` or `rm`, depending on whether we can assume the directory is empty. I'm guessing `rmdir`.
+
+## Back to the Future
+Changing the working directory to a previous one using an unusual option accepted by `cd`.
