@@ -51,3 +51,7 @@ Move files from the working directory to the directory at a fixed location, only
 
 ## Clean Emacs
 Delete all files that look like `emacs` backup files using `rm`.
+
+## Tree
+Create 3 nested directories using minmal white space. This uses `mkdir` and `bash` substitutions.
+This exact question appeared on the quiz during level 3 of the Holberton application.
