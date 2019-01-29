@@ -24,3 +24,6 @@ Creating a new directory using `mkdir`.
 
 ## Betty in Holberton
 Moving a file from one directory to another using `mv`.
+
+## Bye Bye Betty
+Deleting a file from at a fixed path using `rm`.
