@@ -55,3 +55,6 @@ Delete all files that look like `emacs` backup files using `rm`.
 ## Tree
 Create 3 nested directories using minmal white space. This uses `mkdir` and `bash` substitutions.
 This exact question appeared on the quiz during level 3 of the Holberton application.
+
+## Life Is a Series of Commas, Not Periods
+Listing the files in the working directory using a variety of `ls` options to achieve an unusual format.
