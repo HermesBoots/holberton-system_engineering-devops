@@ -41,3 +41,6 @@ Creating a directory with a fixed name and giving it certain permissions at the 
 
 ## Change Group
 Changing just the owning group of a file with a fixed name using `chown`.
+
+## Owner and Group
+Changing both the owning group and owning user of all files and directories in the working directory using `chown`.
