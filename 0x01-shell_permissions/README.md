@@ -11,3 +11,6 @@ Displaying the list of the current user's group memberships using `groups`.
 
 ## New Owner
 Changing the user owner of a file with a fixed name using `chown`.
+
+## Empty!
+Creating an empty file with a fixed name using `touch`.
