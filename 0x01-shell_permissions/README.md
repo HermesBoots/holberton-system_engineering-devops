@@ -35,3 +35,6 @@ Set the permissions on one file to be the same as those on another file using `c
 
 ## Directories
 Recursively giving execute permission to the working directory, but only affecting directories. This uses a common `chmod` option and a rare symbolic permission.
+
+## More Directories
+Creating a directory and giving it certain permissions at the same time using `install`.
