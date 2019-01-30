@@ -46,4 +46,7 @@ Changing just the owning group of a file with a fixed name using `chown`.
 Changing both the owning group and owning user of all files and directories in the working directory using `chown`.
 
 ## Symbolic Links
-Changing both the owning user and owning group of a symbolic link with a fixed name, _not_ the file it links to.
+Changing both the owning user and owning group of a symbolic link with a fixed name, _not_ the file it links to. This uses an option to `chown`.
+
+## If Only
+Changing the ownership of a file with a fixed name, but only if its current owning user is "guillaume". This uses a long-form option to `chown`.
