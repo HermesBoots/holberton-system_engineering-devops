@@ -29,3 +29,6 @@ Set all permissions on a file with a fixed name to certain values, again using `
 
 ## John Doe
 Same as previous task, except permission which must be set are given in `chmod` symbolic form rather than written in English.
+
+## Look in the Mirror
+Set the permissions on one file to be the same as those on another file using `chmod`. Both files have fixed names.
