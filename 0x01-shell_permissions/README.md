@@ -50,3 +50,6 @@ Changing both the owning user and owning group of a symbolic link with a fixed n
 
 ## If Only
 Changing the ownership of a file with a fixed name, but only if its current owning user is "guillaume". This uses a long-form option to `chown`.
+
+## Star Wars
+Watching an ASCII rendition of Star Wars: A New Hope inside a terminal by connecting to a Dutch server with `telnet`.
