@@ -32,3 +32,6 @@ Same as previous task, except permission which must be set are given in `chmod` 
 
 ## Look in the Mirror
 Set the permissions on one file to be the same as those on another file using `chmod`. Both files have fixed names.
+
+## Directories
+Recursively giving execute permission to the working directory, but only affecting directories. This uses a common `chmod` option and a rare symbolic permission.
