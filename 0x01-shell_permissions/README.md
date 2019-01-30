@@ -53,3 +53,6 @@ Changing the ownership of a file with a fixed name, but only if its current owni
 
 ## Star Wars
 Watching an ASCII rendition of Star Wars: A New Hope inside a terminal by connecting to a Dutch server with `telnet`.
+
+## RTFM
+Writing a new man page from scratch by studying the language of man pages and referring to existing ones.
