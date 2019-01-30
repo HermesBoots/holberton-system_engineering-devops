@@ -17,3 +17,6 @@ Creating an empty file with a fixed name using `touch`.
 
 ## Execute
 Giving the owner of a file with a fixed name permission to execute it using `chmod`.
+
+## Multiple Permissions
+Giving various permissions to all ownership categories on a file with a fixed name, again using `chmod`.
