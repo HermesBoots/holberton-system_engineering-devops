@@ -37,4 +37,7 @@ Set the permissions on one file to be the same as those on another file using `c
 Recursively giving execute permission to the working directory, but only affecting directories. This uses a common `chmod` option and a rare symbolic permission.
 
 ## More Directories
-Creating a directory and giving it certain permissions at the same time using `install`.
+Creating a directory with a fixed name and giving it certain permissions at the same time using `install`.
+
+## Change Group
+Changing just the owning group of a file with a fixed name using `chown`.
