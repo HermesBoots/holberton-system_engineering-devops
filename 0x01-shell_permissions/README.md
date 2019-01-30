@@ -20,3 +20,6 @@ Giving the owner of a file with a fixed name permission to execute it using `chm
 
 ## Multiple Permissions
 Giving various permissions to all ownership categories on a file with a fixed name, again using `chmod`.
+
+## Everybody!
+Giving everyone permission to execute a file with a fixed name, using `chmod` but without using any commas.
