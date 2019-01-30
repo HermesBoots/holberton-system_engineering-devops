@@ -44,3 +44,6 @@ Changing just the owning group of a file with a fixed name using `chown`.
 
 ## Owner and Group
 Changing both the owning group and owning user of all files and directories in the working directory using `chown`.
+
+## Symbolic Links
+Changing both the owning user and owning group of a symbolic link with a fixed name, _not_ the file it links to.
