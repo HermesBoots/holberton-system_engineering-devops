@@ -23,3 +23,9 @@ Giving various permissions to all ownership categories on a file with a fixed na
 
 ## Everybody!
 Giving everyone permission to execute a file with a fixed name, using `chmod` but without using any commas.
+
+## James Bond
+Set all permissions on a file with a fixed name to certain values, again using `chmod` but not commas.
+
+## John Doe
+Same as previous task, except permission which must be set are given in `chmod` symbolic form rather than written in English.
