@@ -53,3 +53,6 @@ Displaying the lines from a file that match a pattern and the following 3 lines 
 
 ## I Hate Bins
 Displaying the lines from a file that _don't_ match a pattern using `grep`.
+
+## Letters Only Please
+Displaying the lines from a file that start with a letter using `grep` character classes and the beginning-of-line symbol.
