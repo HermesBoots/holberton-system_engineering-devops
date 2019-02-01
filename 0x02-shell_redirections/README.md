@@ -59,3 +59,6 @@ Displaying the lines from a file that start with a letter using `grep` character
 
 ## A to Z
 Replacing certain characters from the input with others using `tr`.
+
+## Without C, You Would Live in Hiago
+Deleting certain characters from the input using `tr`.
