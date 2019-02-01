@@ -2,3 +2,6 @@
 
 ## Hello World
 Printing the string "Hello, World" followed by a line feed to the terminal using `echo`.
+
+## Confused Smiley
+Printing a string full of special characters by carefully escaping them before letting `echo` process them.
