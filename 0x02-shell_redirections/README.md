@@ -41,3 +41,6 @@ Displaying the 10 files with the most recent modification times in the current d
 
 ## Being Unique Is Better Than Being Perfect
 Taking a series of lines as input, sorting them, and displaying only the unique ones using `sort` and `uniq`.
+
+## It Must Be in That File
+Displaying lines from a file at a fixed path if they contain a given string using `grep`.
