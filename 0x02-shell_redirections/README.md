@@ -74,3 +74,6 @@ Displaying the names, not the full paths, of all empty files and directories des
 
 ## A GIF Is Worth Ten Thousand Words
 Listing all regular files ending with ".gif" that descend from the current directory and sorting them by byte value but case-insensitively. In addition to `find` and `sort`, an environment variable must be set.
+
+## Acrostic
+Display only the first letter of each input line and squeeze them together, removing the space between them using `cut` and `tr`.
