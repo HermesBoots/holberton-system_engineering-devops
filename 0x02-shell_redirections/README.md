@@ -35,3 +35,6 @@ Recursively removing regular files that end with ".js" using `find` and `rm`.
 
 ## Don't Just Count Your Directories, Make Your Directories Count
 Count the number of descendant directories of the working directory using `find`, `tail`, and `wc`.
+
+## What's New
+Displaying the 10 files with the most recent modification times in the current directory using `ls` and `head`.
