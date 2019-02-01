@@ -23,3 +23,6 @@ Displaying only the third line of a file by piping `head` into `tail`.
 
 ## It Is a Good File That Cuts Iron without Making a Noise
 Printing a specific string (followed by a line feed) into a file that needs to be heavily escaped in `bash`. Single quotes are very helpful for this.
+
+## Save Current State of Directory
+Redirecting the output of `ls` into a file, overwriting that file if it exists.
