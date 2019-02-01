@@ -8,3 +8,6 @@ Printing a string full of special characters by carefully escaping them before l
 
 ## Let's Display a File
 Displaying the entire contents of a file at a fixed path using `cat`.
+
+## What about 2?
+Displaying the entire contents of two files at once using `cat`.
