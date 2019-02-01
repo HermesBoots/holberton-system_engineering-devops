@@ -20,3 +20,6 @@ Displaying only the first 10 lines of a file at a fixed path using `head`.
 
 ## Line #2
 Displaying only the third line of a file by piping `head` into `tail`.
+
+## It Is a Good File That Cuts Iron without Making a Noise
+Printing a specific string (followed by a line feed) into a file that needs to be heavily escaped in `bash`. Single quotes are very helpful for this.
