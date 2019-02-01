@@ -77,3 +77,6 @@ Listing all regular files ending with ".gif" that descend from the current direc
 
 ## Acrostic
 Display only the first letter of each input line and squeeze them together, removing the space between them using `cut` and `tr`.
+
+## The Biggest Fan
+Display the 11 hosts that most frequently appear in a web server's log. This is a very long pipeline using `tail`, `cut`, `sort`, `uniq`, `head`, and `tr`.
