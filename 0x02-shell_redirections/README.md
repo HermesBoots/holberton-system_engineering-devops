@@ -38,3 +38,6 @@ Count the number of descendant directories of the working directory using `find`
 
 ## What's New
 Displaying the 10 files with the most recent modification times in the current directory using `ls` and `head`.
+
+## Being Unique Is Better Than Being Perfect
+Taking a series of lines as input, sorting them, and displaying only the unique ones using `sort` and `uniq`.
