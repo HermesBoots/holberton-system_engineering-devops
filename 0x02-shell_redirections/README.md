@@ -65,3 +65,6 @@ Deleting certain characters from the input using `tr`.
 
 ## esreveR
 Reversing the input using `rev`.
+
+## DJ Cut Killer
+Displaying only certain fields on each line of the /etc/passwd file and sorting them using `cat`, `cut`, and `sort`.
