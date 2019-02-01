@@ -62,3 +62,6 @@ Replacing certain characters from the input with others using `tr`.
 
 ## Without C, You Would Live in Hiago
 Deleting certain characters from the input using `tr`.
+
+## esreveR
+Reversing the input using `rev`.
