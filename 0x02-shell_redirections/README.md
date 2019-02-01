@@ -11,3 +11,6 @@ Displaying the entire contents of a file at a fixed path using `cat`.
 
 ## What about 2?
 Displaying the entire contents of two files at once using `cat`.
+
+## Last Lines of a File
+Displaying only the last 10 lines of a file at a fixed path using `tail`.
