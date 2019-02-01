@@ -47,3 +47,6 @@ Displaying lines from a file at a fixed path if they contain a given string usin
 
 ## Count That Word
 Displaying the number of lines in a file that match a pattern using `grep` and `wc`.
+
+## What's Next?
+Displaying the lines from a file that match a pattern and the following 3 lines after each of them using `grep`.
