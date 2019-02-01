@@ -26,3 +26,6 @@ Printing a specific string (followed by a line feed) into a file that needs to b
 
 ## Save Current State of Directory
 Redirecting the output of `ls` into a file, overwriting that file if it exists.
+
+## Duplicate Last Line
+Duplicating the last line in a file by using `tail` and append redirection.
