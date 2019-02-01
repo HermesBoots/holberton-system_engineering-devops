@@ -32,3 +32,6 @@ Duplicating the last line in a file by using `tail` and append redirection.
 
 ## No More JavaScript
 Recursively removing regular files that end with ".js" using `find` and `rm`.
+
+## Don't Just Count Your Directories, Make Your Directories Count
+Count the number of descendant directories of the working directory using `find`, `tail`, and `wc`.
