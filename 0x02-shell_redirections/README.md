@@ -44,3 +44,6 @@ Taking a series of lines as input, sorting them, and displaying only the unique 
 
 ## It Must Be in That File
 Displaying lines from a file at a fixed path if they contain a given string using `grep`.
+
+## Count That Word
+Displaying the number of lines in a file that match a pattern using `grep` and `wc`.
