@@ -5,3 +5,6 @@ Printing the string "Hello, World" followed by a line feed to the terminal using
 
 ## Confused Smiley
 Printing a string full of special characters by carefully escaping them before letting `echo` process them.
+
+## Let's Display a File
+Displaying the entire contents of a file at a fixed path using `cat`.
