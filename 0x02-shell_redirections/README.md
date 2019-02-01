@@ -17,3 +17,6 @@ Displaying only the last 10 lines of a file at a fixed path using `tail`.
 
 ## I'd Prefer the First Ones Actually
 Displaying only the first 10 lines of a file at a fixed path using `head`.
+
+## Line #2
+Displaying only the third line of a file by piping `head` into `tail`.
