@@ -50,3 +50,6 @@ Displaying the number of lines in a file that match a pattern using `grep` and `
 
 ## What's Next?
 Displaying the lines from a file that match a pattern and the following 3 lines after each of them using `grep`.
+
+## I Hate Bins
+Displaying the lines from a file that _don't_ match a pattern using `grep`.
