@@ -68,3 +68,6 @@ Reversing the input using `rev`.
 
 ## DJ Cut Killer
 Displaying only certain fields on each line of the /etc/passwd file and sorting them using `cat`, `cut`, and `sort`.
+
+## Empty Casks Make the Most Noise
+Displaying the names, not the full paths, of all empty files and directories descending from the working directory using `find`.
