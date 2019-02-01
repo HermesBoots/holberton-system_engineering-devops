@@ -10,7 +10,7 @@ Printing a string full of special characters by carefully escaping them before l
 Displaying the entire contents of a file at a fixed path using `cat`.
 
 ## What about 2?
-Displaying the entire contents of two files at once using `cat`.
+WDisplaying the entire contents of two files at once using `cat`.
 
 ## Last Lines of a File
 Displaying only the last 10 lines of a file at a fixed path using `tail`.
@@ -71,3 +71,6 @@ Displaying only certain fields on each line of the /etc/passwd file and sorting 
 
 ## Empty Casks Make the Most Noise
 Displaying the names, not the full paths, of all empty files and directories descending from the working directory using `find`.
+
+## A GIF Is Worth Ten Thousand Words
+Listing all regular files ending with ".gif" that descend from the current directory and sorting them by byte value but case-insensitively. In addition to `find` and `sort`, an environment variable must be set.
