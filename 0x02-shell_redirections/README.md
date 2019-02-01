@@ -29,3 +29,6 @@ Redirecting the output of `ls` into a file, overwriting that file if it exists.
 
 ## Duplicate Last Line
 Duplicating the last line in a file by using `tail` and append redirection.
+
+## No More JavaScript
+Recursively removing regular files that end with ".js" using `find` and `rm`.
