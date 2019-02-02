@@ -73,7 +73,7 @@ Displaying only certain fields on each line of the /etc/passwd file and sorting 
 Displaying the names, not the full paths, of all empty files and directories descending from the working directory using `find`.
 
 ## A GIF Is Worth Ten Thousand Words
-Listing all regular files ending with ".gif" that descend from the current directory and sorting them by byte value but case-insensitively. In addition to `find` and `sort`, an environment variable must be set.
+Listing all regular files ending with ".gif" that descend from the current directory and sorting them by byte value but case-insensitively. In addition to `find` and `sort`, an environment variable must be set. In order to make `cut` remove from the end of each line, `rev` must be used twice.
 
 ## Acrostic
 Display only the first letter of each input line and squeeze them together, removing the space between them using `cut` and `tr`.
