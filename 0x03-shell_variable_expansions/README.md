@@ -1,6 +1,6 @@
 # Shell Init Files, Variables, and Expansions
 
-## <o>
+## &lt;o&gt;
 Creating a command alias with `alias`.
 
 ## Hello You
