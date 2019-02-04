@@ -41,3 +41,6 @@ Print all combinations of two small letters using brace expansion and a sequence
 
 ## Floats
 Print a non-integer number with two trailing decimal places using `printf`.
+
+## Decimal to Hexadecimal
+Convert a decimal number to a hexadecimal number using `printf`.
