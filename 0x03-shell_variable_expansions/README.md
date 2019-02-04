@@ -11,3 +11,6 @@ Adding a directory to the search path using `$PATH`.
 
 ## If the Path Be Beautiful, Let Us Not Ask Where It Leads
 Count the number of directories in the search path using `tr` and `wc`.
+
+## Global Variables
+Display all environment variables using `printenv`.
