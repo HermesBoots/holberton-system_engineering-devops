@@ -14,3 +14,6 @@ Count the number of directories in the search path using `tr` and `wc`.
 
 ## Global Variables
 Display all environment variables using `printenv`.
+
+## Local Variables
+Displaying all environment variables, local variables, and functions using `set`.
