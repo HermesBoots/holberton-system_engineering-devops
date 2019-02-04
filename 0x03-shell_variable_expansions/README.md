@@ -2,3 +2,6 @@
 
 ## <o>
 Creating a command alias with `alias`.
+
+## Hello You
+Displaying the login name of the current user using `$USER`.
