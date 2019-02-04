@@ -44,3 +44,6 @@ Print a non-integer number with two trailing decimal places using `printf`.
 
 ## Decimal to Hexadecimal
 Convert a decimal number to a hexadecimal number using `printf`.
+
+## Everyone Is a Proponent of Strong Encryption
+Encrypting the input using the rot13 cipher put through `tr`.
