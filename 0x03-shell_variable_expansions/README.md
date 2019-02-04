@@ -32,3 +32,6 @@ Displaying the result of division of two variables using `echo` and arithmetic e
 
 ## Love Is Anterior to Life, Posterior to Death, Initial of Creation, and the Exponent of Breath
 Displaying the result of exponentiation of two variables as above.
+
+## There Are 10 Types of People in the World: Those Who Understand Binary, and Those Who Don't
+Performing a base conversion of a binary number using arithmetic expansion.
