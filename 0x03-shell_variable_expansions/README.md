@@ -35,3 +35,6 @@ Displaying the result of exponentiation of two variables as above.
 
 ## There Are 10 Types of People in the World: Those Who Understand Binary, and Those Who Don't
 Performing a base conversion of a binary number using arithmetic expansion.
+
+## Combination
+Print all combinations of two small letters using brace expansion and a sequence, but excluding "oo" using `grep`.
