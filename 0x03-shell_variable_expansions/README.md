@@ -29,3 +29,6 @@ Add a number to the value of a variable using `echo` and arithmetic expansion.
 
 ## Divide and Rule
 Displaying the result of division of two variables using `echo` and arithmetic expansion.
+
+## Love Is Anterior to Life, Posterior to Death, Initial of Creation, and the Exponent of Breath
+Displaying the result of exponentiation of two variables as above.
