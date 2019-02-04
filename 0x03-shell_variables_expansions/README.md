@@ -50,3 +50,6 @@ Encrypting the input using the rot13 cipher put through `tr`.
 
 ## The Eggs of the Brood Need to Be an Odd Number
 Displaying only every odd line from input using multiple invocations of `grep` and advanced regexes.
+
+## I'm an Instant Star. Just Add Water and Stir.
+Adding together some base-5 numbers that are encrypted with simple replacement ciphers, converting the result to base 8, then encrypting the result with another replacement cipher. This uses `printf`, arithmetic expansion, command substitution, and finally `tr`.
