@@ -17,3 +17,6 @@ Display all environment variables using `printenv`.
 
 ## Local Variables
 Displaying all environment variables, local variables, and functions using `set`.
+
+## Local Variable
+Create a new local variable in `bash`.
