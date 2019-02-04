@@ -38,3 +38,6 @@ Performing a base conversion of a binary number using arithmetic expansion.
 
 ## Combination
 Print all combinations of two small letters using brace expansion and a sequence, but excluding "oo" using `grep`.
+
+## Floats
+Print a non-integer number with two trailing decimal places using `printf`.
