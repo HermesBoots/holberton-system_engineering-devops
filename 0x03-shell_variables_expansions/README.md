@@ -47,3 +47,6 @@ Convert a decimal number to a hexadecimal number using `printf`.
 
 ## Everyone Is a Proponent of Strong Encryption
 Encrypting the input using the rot13 cipher put through `tr`.
+
+## The Eggs of the Brood Need to Be an Odd Number
+Displaying only every odd line from input using multiple invocations of `grep` and advanced regexes.
