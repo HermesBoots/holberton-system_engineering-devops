@@ -26,3 +26,6 @@ Create a new global variable using `export`.
 
 ## Every Addition to True Knowledge Is an Addition to Human Power
 Add a number to the value of a variable using `echo` and arithmetic expansion.
+
+## Divide and Rule
+Displaying the result of division of two variables using `echo` and arithmetic expansion.
