@@ -29,3 +29,6 @@ Print file names without first hyphen-delimited field.
 
 ## To File, or Not to File
 Print information about a file using only bash tests.
+
+## FizzBuzz
+FizzBuzz in bash.
