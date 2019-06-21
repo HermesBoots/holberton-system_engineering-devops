@@ -26,3 +26,6 @@ Display the time for almost 13 hours.
 
 ## For Is
 Print file names without first hyphen-delimited field.
+
+## To File, or Not to File
+Print information about a file using only bash tests.
