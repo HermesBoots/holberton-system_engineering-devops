@@ -32,3 +32,6 @@ Print information about a file using only bash tests.
 
 ## FizzBuzz
 FizzBuzz in bash.
+
+## Read and Cut
+Use the `read` command to read lines from a file.
