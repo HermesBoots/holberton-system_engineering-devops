@@ -41,3 +41,6 @@ Turning /etc/passwd entries into a story about users.
 
 ## Let's Parse Apache Logs
 Parsing Apache access logs using `awk`.
+
+## Dig the Data
+Print Apache log lines grouped by occurrences and sorted numerically.
