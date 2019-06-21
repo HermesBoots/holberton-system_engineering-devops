@@ -5,3 +5,6 @@ Generating an RSA key pair for use with SSH connections.
 
 ## For Holberton School Loop
 Do a `for` loop in bash.
+
+## While Holberton School Loop
+Do a `while` loop in bash.
