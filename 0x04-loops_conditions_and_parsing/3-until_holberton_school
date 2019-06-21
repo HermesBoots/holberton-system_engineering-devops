@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Print a string 10 times
+
+declare -i i=0
+until (( i == 10 )); do
+	echo "Holberton School"
+	(( i++ ))
+done
