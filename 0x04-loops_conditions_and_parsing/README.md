@@ -38,3 +38,6 @@ Use the `read` command to read lines from a file.
 
 ## Tell the Story of Passwd
 Turning /etc/passwd entries into a story about users.
+
+## Let's Parse Apache Logs
+Parsing Apache access logs using `awk`.
