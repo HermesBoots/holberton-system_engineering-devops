@@ -14,3 +14,6 @@ Do an `until` loop in bash.
 
 ## If 9, Say Hi!
 Use an `if` statement in bash.
+
+## 4 Bad Luck, 8 Is Your Chance
+Use `if`, `elif`, and `else` in bash.
