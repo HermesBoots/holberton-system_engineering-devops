@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Print a string 10 times, with a special case the 9th time
+
+declare -i i=0
+while (( i < 10 )); do
+	echo "Holberton School"
+	if (( i == 8 )); then
+		echo "Hi"
+	fi
+	(( i++ ))
+done

@@ -11,3 +11,6 @@ Do a `while` loop in bash.
 
 ## Until Holberton School Loop
 Do an `until` loop in bash.
+
+## If 9, Say Hi!
+Use an `if` statement in bash.
