@@ -35,3 +35,6 @@ FizzBuzz in bash.
 
 ## Read and Cut
 Use the `read` command to read lines from a file.
+
+## Tell the Story of Passwd
+Turning /etc/passwd entries into a story about users.
