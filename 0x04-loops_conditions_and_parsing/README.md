@@ -23,3 +23,6 @@ Print numbers from 1 to 20 and countries where they're considered unlucky.
 
 ## Clock
 Display the time for almost 13 hours.
+
+## For Is
+Print file names without first hyphen-delimited field.
