@@ -17,3 +17,6 @@ Printing a string forever, every two seconds.
 
 ## Kill Me Now
 Killing a running process by name.
+
+## Kill Me Now Made Easy
+Killing a running process with one command.
