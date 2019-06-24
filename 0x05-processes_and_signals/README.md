@@ -32,3 +32,6 @@ Handling more signals and putting a PID in a file.
 
 ## Manage My Process
 Write a simple simulation of an init script.
+
+## Zombie
+Intentionally create zombie processes.
