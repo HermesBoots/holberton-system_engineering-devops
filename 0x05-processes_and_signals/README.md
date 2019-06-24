@@ -14,3 +14,6 @@ Printing the PIDs of bash processes with one command.
 
 ## To Infinity and Beyond
 Printing a string forever, every two seconds.
+
+## Kill Me Now
+Killing a running process by name.
