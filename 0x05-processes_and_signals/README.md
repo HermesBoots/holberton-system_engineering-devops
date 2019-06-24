@@ -23,3 +23,6 @@ Killing a running process with one command.
 
 ## Highlander
 Writing a script that avoids termination.
+
+## Beheaded Process
+Killing a process that avoids termination.
