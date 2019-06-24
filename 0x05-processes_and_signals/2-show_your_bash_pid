@@ -2,4 +2,4 @@
 # Print information about bash processes
 # shellcheck disable=SC2009
 
-ps afux | grep bash
+ps aux | grep bash
