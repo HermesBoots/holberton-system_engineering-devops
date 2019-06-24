@@ -8,3 +8,6 @@ Printing all running processes.
 
 ## Show Your Bash PID
 Printing the PIDs of bash processes.
+
+## Show Your Bash PID Made Easy
+Printing the PIDs of bash processes with one command.
