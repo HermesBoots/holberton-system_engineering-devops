@@ -29,3 +29,6 @@ Killing a process that avoids termination.
 
 ## Process and PID File
 Handling more signals and putting a PID in a file.
+
+## Manage My Process
+Write a simple simulation of an init script.
