@@ -20,3 +20,6 @@ Killing a running process by name.
 
 ## Kill Me Now Made Easy
 Killing a running process with one command.
+
+## Highlander
+Writing a script that avoids termination.
