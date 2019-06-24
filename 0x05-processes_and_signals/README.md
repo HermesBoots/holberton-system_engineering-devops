@@ -26,3 +26,6 @@ Writing a script that avoids termination.
 
 ## Beheaded Process
 Killing a process that avoids termination.
+
+## Process and PID File
+Handling more signals and putting a PID in a file.
