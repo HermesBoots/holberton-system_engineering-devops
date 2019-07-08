@@ -8,3 +8,6 @@ Why use 0.0.0.0.
 
 ## Change Your Home IP
 Changing the host mappings in your machine.
+
+## Show Attached IPs
+List IP addresses of attached interfaces.
