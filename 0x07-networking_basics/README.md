@@ -5,3 +5,6 @@ Basics of the OSI model.
 
 ## Types of Network
 Categorizing LAN, WAN, and Internet.
+
+## MAC and IP Address
+Differentiating MAC and IP addresses.
