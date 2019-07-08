@@ -20,3 +20,6 @@ Accept any single character.
 
 ## Call Me Maybe
 Match only ten digits, nothing else.
+
+## OMG WHY ARE YOU SHOUTING
+Match only capital letters.
