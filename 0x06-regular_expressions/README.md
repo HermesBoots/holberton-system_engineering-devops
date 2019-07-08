@@ -11,3 +11,6 @@ Allow for an optional character.
 
 ## Repetition Token #2
 Allow a character one or more times.
+
+## Repetition Token #3
+Accept a character zero or more times.
