@@ -11,3 +11,6 @@ Differentiating MAC and IP addresses.
 
 ## UDP and TCP
 Distinguishing between UDP and TCP.
+
+## TCP and UDP Ports
+Printing listening sockets and their controlling processes.
