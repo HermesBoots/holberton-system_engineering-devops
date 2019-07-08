@@ -26,3 +26,6 @@ Match only capital letters.
 
 ## TextMe
 Match sections of a TextMe log file.
+
+## Pass LinkedIn Technical Interview Level0
+Pass a regex grid puzzle hosted by LinkedIn.
