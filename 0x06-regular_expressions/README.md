@@ -17,3 +17,6 @@ Accept a character zero or more times.
 
 ## Not Quite HBTN Yet
 Accept any single character.
+
+## Call Me Maybe
+Match only ten digits, nothing else.
