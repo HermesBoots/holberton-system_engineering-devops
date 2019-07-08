@@ -23,3 +23,6 @@ Match only ten digits, nothing else.
 
 ## OMG WHY ARE YOU SHOUTING
 Match only capital letters.
+
+## TextMe
+Match sections of a TextMe log file.
