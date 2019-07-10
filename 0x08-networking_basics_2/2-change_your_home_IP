@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # change the host mappings on your machine
 
-echo -e '127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com' > hosts.new
-mv --force hosts.new /etc/hosts
+echo -e '127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com' > /tmp/hosts.new
+mv --force /tmp/hosts.new /etc/hosts
