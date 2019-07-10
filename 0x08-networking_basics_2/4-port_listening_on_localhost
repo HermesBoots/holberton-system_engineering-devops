@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # echo text sent to a listening socket
 
-nc -l 98
+nc -l localhost 98
