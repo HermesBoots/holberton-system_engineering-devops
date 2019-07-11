@@ -14,3 +14,6 @@ Adding more rules to the make file.
 
 ## A Complete Makefile
 Supporting extra compiler flags in the make file.
+
+## `make -f 100-Makefile`
+Leveraging implicit recpies and variables in the make file.
