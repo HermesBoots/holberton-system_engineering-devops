@@ -11,3 +11,6 @@ Adding more variables and recompiling only when files change.
 
 ## `make -f 3-Makefile`
 Adding more rules to the make file.
+
+## A Complete Makefile
+Supporting extra compiler flags in the make file.
