@@ -1,3 +1,4 @@
+# create a temporary file
 file { 'temporary file':
   path    => '/tmp/holberton',
   mode    => '0744',
