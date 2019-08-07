@@ -2,11 +2,14 @@
 # install Nginx on a remote server
 
 declare -r config_file='/etc/nginx/sites-available/default'
-declare -r listen_pattern='s/^(\s*listen\s+)[0-9]+(.*;)$/\180\2/'
+declare -r listen_pattern='s/^(\s*listen\s+)[0-9]+(.*;\s*)$/\180\2/'
+declare -r root_pattern='s/^(\s*root\s+).*(;\s*)$/\1\/var\/www\/html\2/'
 
 apt-get update
 apt-get --yes install 'nginx'
 sed --in-place --regexp-extended "$listen_pattern" "$config_file"
-echo 'Holberton School' > '/usr/share/nginx/html/index.html'
+sed --in-place --regexp-extended "$root_pattern" "$config_file"
+mkdir --parents /var/www/html
+echo 'Holberton School' > '/var/www/html/index.html'
 service nginx reload
 service nginx restart
