@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# configure a server with Nginx and a redirect
+
+apt-get update
+apt-get --yes install 'nginx'
+cat > '/etc/nginx/sites-available/default' << EOF
+server {
+	listen 80 default_server;
+	root /var/www/html;
+	index index.html;
+	rewrite ^/redirect_me$ http://example.com/ permanent;
+}
+EOF
+mkdir --parents '/var/www/html'
+echo 'Holberton School' > '/var/www/html/index.html'
+service nginx reload
+service nginx restart
