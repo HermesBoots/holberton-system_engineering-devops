@@ -14,3 +14,6 @@ Add an HTTP redirect to a specific URL on the server.
 
 ## Not Found Page 404
 Add a custom error page for 404 responses to the server.
+
+## Install Nginx Web Server (with Puppet)
+Perform previous tasks but with Puppet instead of a shell script.
