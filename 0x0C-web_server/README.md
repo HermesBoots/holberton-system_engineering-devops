@@ -5,3 +5,6 @@ Writing a script that wraps `scp` to transfer files to a server.
 
 ## Install Nginx Web Server
 Install Nginx with its default configuration and change the index page.
+
+## Setup a Domain Name
+Registering a domain name and configuratin an A record.
