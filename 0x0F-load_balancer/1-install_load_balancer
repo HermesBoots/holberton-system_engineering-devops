@@ -14,5 +14,6 @@ backend web_servers
 	server web-01 35.229.22.85
 	server web-02 34.74.166.73
 EOF
+update-rc.d haproxy defaults
 service haproxy reload
 service haproxy restart
