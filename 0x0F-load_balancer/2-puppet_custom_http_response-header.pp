@@ -1,6 +1,6 @@
 # configure all the previous tasks but with Puppet
 
-$host_name = generate('uname', '--nodename')
+$host_name = generate('/bin/uname', '--nodename')
 $nginx_site_config = "server {
 	listen 80 default_server;
 	listen [::]:80 default_server ipv6only=on;
