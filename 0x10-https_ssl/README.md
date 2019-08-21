@@ -8,3 +8,6 @@ Querying a given domain name and formatting special output.
 
 ## HAProxy SSL Termination
 Configure the load balancer to use TLS.
+
+## No Loophole in Your Web Traffic
+Forward HTTP requests to HTTPS.
