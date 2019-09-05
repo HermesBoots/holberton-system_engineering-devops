@@ -11,3 +11,6 @@ Create the database and a table to be used with replication.
 
 ## Quite an Experience to Live in Fear, Isn't It?
 Create a user with permission to initiate replication.
+
+## MySQL Backup
+Make a script that backs up and compresses all the data in a MySQL server.
