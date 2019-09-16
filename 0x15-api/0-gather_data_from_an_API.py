@@ -18,9 +18,9 @@ if __name__ == '__main__':
     )
     with urllib.request.urlopen(request) as response:
         tasks = json.loads(response.read().decode())
-    done = [task for task in tasks if task['completed']]
+    done = [task for task in tasks if task.get('completed')]
     print('Employee {} is done with tasks({}/{})'.format(
-        user['name'],
+        user.get('name'),
         len(done),
         len(tasks)
     ))
