@@ -14,18 +14,18 @@ if __name__ == '__main__':
     )
     with urllib.request.urlopen(request) as response:
         users = json.loads(response.read().decode())
-    users = {user['id']: user for user in users}
+    users = {user.get('id'): user for user in users}
     request = urllib.request.Request(
         'https://jsonplaceholder.typicode.com/todos'
     )
     with urllib.request.urlopen(request) as response:
         tasks = json.loads(response.read().decode())
-    tasks = {user['id']: [
+    tasks = {user.get('id'): [
         {
-            'username': user['username'],
-            'task': task['title'],
-            'completed': task['completed']
-        } for task in tasks if task['userId'] == user['id']
+            'username': user.get('username'),
+            'task': task.get('title'),
+            'completed': task.get('completed')
+        } for task in tasks if task.get('userId') == user.get('id')
     ] for user in users.values()}
     with open('todo_all_employees.json', 'wt') as file:
         json.dump(tasks, file)
