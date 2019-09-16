@@ -21,7 +21,7 @@ if __name__ == '__main__':
         tasks = json.loads(response.read().decode())
     with open(sys.argv[1] + '.csv', 'wt', newline='') as file:
         file = csv.writer(file, quoting=csv.QUOTE_ALL)
-        row = [sys.argv[1], user.get('name'), '', '']
+        row = [sys.argv[1], user.get('username'), '', '']
         for task in tasks:
             row[2] = str(task.get('completed'))
             row[3] = task.get('title')
