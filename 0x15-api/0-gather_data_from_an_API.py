@@ -25,4 +25,4 @@ if __name__ == '__main__':
         len(tasks)
     ))
     for task in done:
-        print('\t ' + task['title'])
+        print('\t ' + task.get('title'))
