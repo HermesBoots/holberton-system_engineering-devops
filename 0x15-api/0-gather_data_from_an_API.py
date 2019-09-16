@@ -8,20 +8,16 @@ import urllib.request
 
 
 if __name__ == '__main__':
-    userId = int(sys.argv[1])
     request = urllib.request.Request(
-        'https://jsonplaceholder.typicode.com/users'
+        'https://jsonplaceholder.typicode.com/users/' + sys.argv[1]
     )
     with urllib.request.urlopen(request) as response:
-        users = json.loads(response.read().decode())
-    users = {user['id']: user for user in users}
-    user = users[userId]
+        user = json.loads(response.read().decode())
     request = urllib.request.Request(
-        'https://jsonplaceholder.typicode.com/todos'
+        'https://jsonplaceholder.typicode.com/todos?userId=' + sys.argv[1]
     )
     with urllib.request.urlopen(request) as response:
         tasks = json.loads(response.read().decode())
-    tasks = [task for task in tasks if task['userId'] == userId]
     done = [task for task in tasks if task['completed']]
     print('Employee {} is done with tasks({}/{})'.format(
         user['name'],
