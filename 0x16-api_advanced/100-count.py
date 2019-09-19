@@ -29,6 +29,7 @@ def count_words(subreddit, word_list, hot_list=[], after=None):
     hot_list.extend(p['data']['title'] for p in posts['data']['children'])
     after = posts['data']['after']
     if after is None:
+        word_list = collections.Counter(word_list)
         counter = collections.Counter(
             word
             for title in hot_list for word in title.lower().split()
@@ -36,8 +37,8 @@ def count_words(subreddit, word_list, hot_list=[], after=None):
         print('\n'.join(
             '{}: {}'.format(word, count)
             for word, count in sorted((
-                (word, counter[word.lower()])
-                for word in word_list
+                (word, counter[word.lower()] * words)
+                for word, words in word_list.items()
                 if counter[word.lower()] > 0
             ), key=lambda pair: (-pair[1], pair[0]))
         ))
