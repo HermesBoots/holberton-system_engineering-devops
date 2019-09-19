@@ -24,7 +24,6 @@ def count_words(subreddit, word_list, hot_list=[], after=None):
     }
     response = requests.get(path, headers=headers, allow_redirects=False)
     if response.status_code != 200:
-        print()
         return
     posts = response.json()
     hot_list.extend(p['data']['title'] for p in posts['data']['children'])
