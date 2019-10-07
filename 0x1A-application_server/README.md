@@ -8,3 +8,6 @@ Install Gunicorn as another way to launch the application server.
 
 ## Serve a Page with Nginx
 Configure Nginx to proxy requests in a certain directory to the application server.
+
+## Add a Route with Query Parameters
+Configure Nginx to support 2 simultaneous application servers.

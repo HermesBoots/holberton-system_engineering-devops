@@ -1,0 +1,22 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server ipv6only=on;
+	root /var/www/html;
+
+	add_header X-Served-By 701-web-01;
+
+	# forward requests to one-page HBNB to the application server
+	location ~ ^/airbnb-onepage($|/) {
+		proxy_pass http://127.0.0.1:5000;
+	}
+
+	# forward requests to another app server with route parameters
+	location /airbnb-dynamic/number_odd_or_even/ {
+		rewrite ^/airbnb-dynamic/(.*)$ /$1 break;
+		proxy_pass http://127.0.0.1:5001;
+	}
+
+	location /hbnb_static/ {
+		alias /data/web_static/current/;
+	}
+}
