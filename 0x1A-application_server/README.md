@@ -14,3 +14,6 @@ Configure Nginx to support 2 simultaneous application servers.
 
 ## Let's Do This for Your API
 Configure Nginx to forward requests to the API server.
+
+## Serve Your AirBnB Clone
+Serve the dynamic HBNB project on yet another application server.
