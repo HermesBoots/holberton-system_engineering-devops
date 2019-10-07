@@ -11,3 +11,6 @@ Configure Nginx to proxy requests in a certain directory to the application serv
 
 ## Add a Route with Query Parameters
 Configure Nginx to support 2 simultaneous application servers.
+
+## Let's Do This for Your API
+Configure Nginx to forward requests to the API server.
