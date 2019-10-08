@@ -1,0 +1,13 @@
+[Unit]
+Description=Holberton AirBnB clone
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/data/airbnb
+Environment="PATH=/bin:/sbin:/usr/bin:/usr/local/bin"
+ExecStart=/usr/local/bin/gunicorn --workers 3 --bind 127.0.0.1:5003 --access-logfile /tmp/airbnb-access.log --error-logfile /tmp/airbnb-error.log web_dynamic.2-hbnb:app
+
+[Install]
+WantedBy=multi-user.target

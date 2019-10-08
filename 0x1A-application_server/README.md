@@ -17,3 +17,6 @@ Configure Nginx to forward requests to the API server.
 
 ## Serve Your AirBnB Clone
 Serve the dynamic HBNB project on yet another application server.
+
+## Deploy It!
+Make and application server into a systemd service and always start it with the computer.
