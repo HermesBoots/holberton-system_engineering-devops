@@ -20,3 +20,6 @@ Serve the dynamic HBNB project on yet another application server.
 
 ## Deploy It!
 Make and application server into a systemd service and always start it with the computer.
+
+## No Service Interruption
+Get Gunicorn to gracefully reload its worker processes.

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# tell gunicorn to reload its configuration
+
+pkill --signal HUP gunicorn
