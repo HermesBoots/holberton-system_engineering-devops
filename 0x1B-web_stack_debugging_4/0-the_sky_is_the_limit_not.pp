@@ -7,6 +7,5 @@ file { 'let Nginx open more files':
 service { 'Nginx':
   ensure     => running,
   name       => 'nginx',
-  hasrestart => true,
   subscribe  => File['/etc/default/nginx']
 }
