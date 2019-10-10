@@ -1,11 +1,11 @@
 file { 'let Nginx open more files':
   ensure  => file,
   path    => '/etc/default/nginx',
-  content => 'ULIMIT="-n 1048576"'
+  content => 'ULIMIT="-n 1048576"',
+  notify  => Service['nginx']
 }
 
 service { 'Nginx':
-  ensure     => running,
-  name       => 'nginx',
-  subscribe  => File['/etc/default/nginx']
+  ensure => running,
+  name   => 'nginx'
 }
