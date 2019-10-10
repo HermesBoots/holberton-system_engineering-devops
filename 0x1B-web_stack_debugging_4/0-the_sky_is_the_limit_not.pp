@@ -7,6 +7,6 @@ file { 'let Nginx open more files':
 
 service { 'Nginx':
   ensure => running,
-  name   => 'nginx'
+  name   => 'nginx',
   enable => true
 }
